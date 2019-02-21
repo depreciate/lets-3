@@ -259,6 +259,7 @@ class score:
 						self.completed = 2
 						self.rankedScoreIncrease = 0
 						self.oldPersonalBest = 0
+					self.completed = 3	
 
 		#log.info("Completed status: {}".format(self.completed))
 
