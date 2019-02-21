@@ -238,6 +238,8 @@ class score:
 			else:
 				# Compare personal best's score with current score
 				if b.rankedStatus == rankedStatuses.RANKED:
+					self.completed = 3
+					self.calculatePP()
 					if self.pp > personalBest["pp"]:
 						# New best score
 						self.completed = 3
